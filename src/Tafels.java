@@ -8,7 +8,7 @@ class Tafel {
         int cijfer;
         int einde;
     Scanner sc = new Scanner(System.in);
-    System.out.println("Voer een getal in om de tafel te berekenen, ben je klaar met de calculator typ dan 'Einde':");
+    System.out.println("Voer een getal in om de tafel te berekenen:");
     cijfer = sc.nextInt();
     for (int x = 1; x <= 10; x++) {
         System.out.println(cijfer + "*" + x + "=" + (cijfer * x));
